@@ -1,1 +1,3 @@
 nightwatchProps.js
+tests_output/
+selenium-debug*
