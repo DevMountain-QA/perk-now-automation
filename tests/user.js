@@ -3,13 +3,16 @@ const testData = require('../testSupport/testData')
 
 module.exports = {
     beforeEach: browser => {
-        browser.url('http://google.com')
+        browser.url('http://localhost:8080/#/admin/companies')
     },
     after: browser => {
         browser.end()
     },
     'test': browser => {
-        
+        browser
+            .pause(30000)
+            .clickByText('td','devmtn.com')
+            .pause(10000)
     }
 
 }
