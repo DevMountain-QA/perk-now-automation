@@ -13,7 +13,7 @@ module.exports = {
 
         },
         dealRedemption: {
-
+            stuff: 'michael made a change'
         },
         login: {
             emailInput: '',
