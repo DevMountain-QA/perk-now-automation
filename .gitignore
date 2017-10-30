@@ -1,3 +1,4 @@
 nightwatchProps.js
 tests_output/
 selenium-debug*
+npm-debug.log
