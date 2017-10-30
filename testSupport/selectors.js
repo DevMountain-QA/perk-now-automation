@@ -107,14 +107,14 @@ module.exports = {
             adminUserTag: 'td',
             adminUserText: '24',
             userEditTag: 'input',
-            UserEditText: '84005'
+            userEditText: '84005'
 
         },
         vendorScreen: {
             adminVendorTag: 'td',
-            adminVenText: 'wizard dresden',
+            adminVendorText: 'wizard dresden',
             vendorEditTag: 'input',
-            venEditText: 'chicago'
+            vendorEditText: 'chicago'
 
         },
         dealScreen: {
