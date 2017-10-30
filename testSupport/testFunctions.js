@@ -1,7 +1,19 @@
 const selectors = require('./selectors')
 
 module.exports = {
-    selectBusiness: (data, browser) => {
-        browser.clickByText(selectors.user.menuBar.referAVendor.tag, selectors.user.menuBar.referAVendor.text)
+    signIn : (data, browser) => {
+
+    },
+    createAccountEmail : (data, browser) => {
+
+    },
+    createAccountCode : (data, browser) => {
+
+    },
+    redeemDeal : (data, browser) => {
+
+    },
+    verifyUserMenu : (data, browser) => {
+
     }
 }
