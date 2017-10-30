@@ -7,8 +7,5 @@ module.exports = {
     },
     after: browser => {
         browser.end()
-    },
-    'create company' : browser => {
-        testFunctions.selectBusiness(testData.createCompany)
     }
 }
