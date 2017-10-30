@@ -85,7 +85,7 @@ module.exports = {
     },
     admin: {
         menuBar: {
- 
+            adminMenuTag: 'button[class=button-icon ion-navicon]'
         },
         companyScreen: {
             companyNameTag: 'td',
@@ -104,9 +104,17 @@ module.exports = {
             text: 'Google'
         },
         userScreen: {
+            adminUserTag: 'td',
+            adminUserText: '24',
+            userEditTag: 'input',
+            userEditText: '84005'
 
         },
         vendorScreen: {
+            adminVendorTag: 'td',
+            adminVendorText: 'wizard dresden',
+            vendorEditTag: 'input',
+            vendorEditText: 'chicago'
 
         },
         dealScreen: {
