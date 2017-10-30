@@ -39,7 +39,7 @@ module.exports = {
         },
         companyScreen: {
             companyNameTag: 'td',
-            text: 'View Companies'
+            text: 'View Companies',
 
             companyNameTag: 'td',
             text:'Facebook',
