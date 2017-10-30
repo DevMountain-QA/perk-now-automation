@@ -2,12 +2,12 @@ module.exports = {
     user: {
         home: {
             categories: {
-                food: '',
-                concierge: '',
-                fun: '',
-                service: ''
+                food: 'div[class="category-icon food"]',
+                concierge: 'div[class="category-icon concierge"]',
+                fun: 'div[class="category-icon fun"]',
+                service: 'div[class="category-icon service"]'
             },
-            featuredDeal: ''
+            featuredDeal: 'h4[class="featured-footer-text ng-binding"]'
         },
         deals: {
 
@@ -16,11 +16,11 @@ module.exports = {
 
         },
         login: {
-            emailInput: '',
-            passwordInput: '',
-            signInButton: '',
-            createAccountLink: '',
-            forgotPasswordLink: ''
+            emailInput: 'input[id="email"]',
+            passwordInput: 'input[id=pass]',
+            signInButton: 'p[class="forgotPassword"]',
+            createAccountLink: 'a[id="signButton"]',
+            forgotPasswordLink: 'a[ui-sref="forgot"]'
         },
         accountCreation: {
 
@@ -38,7 +38,20 @@ module.exports = {
 
         },
         companyScreen: {
-            companyNameTag: 'td'
+            companyNameTag: 'td',
+            text: 'View Companies'
+
+            companyNameTag: 'td',
+            text:'Facebook',
+
+            companyNameTag: 'td',
+            text:'Microsoft',
+
+            companyNameTag: 'td',
+            text: 'Apple',
+
+            companyNameTag:'td',
+            text: 'Google'
         },
         userScreen: {
 
