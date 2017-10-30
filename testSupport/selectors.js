@@ -47,12 +47,10 @@ module.exports = {
     },
     admin: {
         menuBar: {
-            menuBarAdmin:
-            homeTab:
-            logout:
+ 
         },
         companyScreen: {
-            companyNameTag: 
+  
         },
         userScreen: {
 
@@ -65,7 +63,6 @@ module.exports = {
             text1: '2 20% off',
             text2: 'free food', 
             text3:'50% off',
-
         },
         transactionScreen: {
 

@@ -4,6 +4,7 @@ const testData = require('../testSupport/testData')
 module.exports = {
     beforeEach: browser => {
         browser.url('http://localhost:8080/#/admin/companies')
+            
     },
     after: browser => {
         browser.end()
@@ -11,7 +12,7 @@ module.exports = {
     'test': browser => {
         browser
             .pause(30000)
-            .clickByText('td','devmtn.com')
+            .clickByText('h5','devmtn.com')
             .pause(10000)
     }
 
