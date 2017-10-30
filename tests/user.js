@@ -3,7 +3,7 @@ const testData = require('../testSupport/testData')
 
 module.exports = {
     beforeEach: browser => {
-        browser.url('http://localhost:8080/#/admin/companies')
+        browser.url('http://192.168.11.79:8080/#/app/home')
             
     },
     after: browser => {
