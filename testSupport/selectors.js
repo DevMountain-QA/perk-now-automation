@@ -13,7 +13,14 @@ module.exports = {
 
         },
         dealRedemption: {
-            stuff: 'michael made a change'
+            deal: 'div[class=deal-header]',
+            description : 'h4[id=modal-description]',
+            address: 'a[class=center ng-binding]',
+            hours: 'p[class=ng-binding]',
+            website: 'span[id=browser-icon]',
+            call: 'span[id=phone-icon]',
+            redeemButton: '[id=redeem-button]',
+            cancelButton: '[id=redeem-cancel]'
         },
         login: {
             emailInput: '',
@@ -26,19 +33,26 @@ module.exports = {
 
         },
         menuBar: {
-            menuButton: '',
-            referAVendor: {
-                tag: 'a[class=item-content]',
-                text: 'Refer a Vendor'
+            Catagories: {
+                itemTag: 'a[class=item-content]',
+                
+                requestAPerk: 'request a perk',
+                referAVendor: 'Refer a Vendor',
+                ContactSupport: 'contact support',
+                privacyPolicy: 'privacy policy',
+                termsAndConditionsOfUse: 'terms and condtions of use',
+                logout: 'logout'
             }
         }
     },
     admin: {
         menuBar: {
-
+            menuBarAdmin:
+            homeTab:
+            logout:
         },
         companyScreen: {
-            companyNameTag: 'td'
+            companyNameTag: 
         },
         userScreen: {
 
@@ -47,6 +61,10 @@ module.exports = {
 
         },
         dealScreen: {
+            dealTag: 'td',
+            text1: '2 20% off',
+            text2: 'free food', 
+            text3:'50% off',
 
         },
         transactionScreen: {
