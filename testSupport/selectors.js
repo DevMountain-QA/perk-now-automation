@@ -8,6 +8,7 @@ module.exports = {
                 service: 'div[class="category-icon service"]'
             },
             featuredDeal: 'h4[class="featured-footer-text ng-binding"]'
+            //might be feauturedDeals: 'div[class=featured-deal]'
         },
         vendors: {
             vendorListItem: 'div[class=vendors-list]'
@@ -28,7 +29,7 @@ module.exports = {
         login: {
             emailInput: 'input[id="email"]',
             passwordInput: 'input[id=pass]',
-            signInButton: 'p[class="forgotPassword"]',
+            signInButton: 'button[type=button]',
             createAccountLink: 'a[id="signButton"]',
             forgotPasswordLink: 'a[ui-sref="forgot"]'
         },
@@ -40,9 +41,11 @@ module.exports = {
                 termAndConditions:'a[ui-sref=tos]'                
             },
             yesEmailScreen: {
+                nextButtonEmail: 'div[ng-click="nextSignupEmail()"]',
                 workEmailField:'input[type=email]'
             },
             noCodeScreen: {
+                nextButtonEmail: 'div[ng-click="nextSignupEmail()"]',
                 codeBox1:'input[ng-model="user.company_code1"]',
                 codeBox2:'input[ng-model="user.company_code2"]',
                 codeBox3:'input[ng-model="user.company_code3"]',
@@ -50,14 +53,15 @@ module.exports = {
                 personalEmail:'input[type=email]'
             },
             insertInfoScreen:{
-                firstName:'input[placeholder=First Name]',
-                lastName:'input[placeholder=Last Name]',
-                password:'input[placeholder=Password]',
-                showPassword:'input[type=checkbox]'
+                firstName: 'input[ng-model="user.first_name"]',
+                lastName: 'input[ng-model="user.last_name"]',
+                password: 'input[ng-model="user.password"]',
+                showPassword:'input[type=checkbox]',
+                nextButtonCreateYourAccount: 'div[ng-click="nextSignupInfo()"'
             },
             zipCode:{
                 enterZip:'input[type=number]',
-                getPerksButton:'button[id=account-create]'
+                getPerksButton:'button[ng-click="signup()"]'
             },
             progressBar: {
                 backButtonHome:'div[class=backArrow button icon-left ion-chevron-left button-clear]',
