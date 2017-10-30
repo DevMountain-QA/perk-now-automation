@@ -35,15 +35,23 @@ module.exports = {
     },
     admin: {
         menuBar: {
-
+            adminMenuTag: 'button[class=button-icon ion-navicon]'
         },
         companyScreen: {
             companyNameTag: 'td'
         },
         userScreen: {
+            adminUserTag: 'td',
+            adminUserText: '24',
+            userEditTag: 'input',
+            UserEditText: '84005'
 
         },
         vendorScreen: {
+            adminVendorTag: 'td',
+            adminVenText: 'wizard dresden',
+            vendorEditTag: 'input',
+            venEditText: 'chicago'
 
         },
         dealScreen: {
