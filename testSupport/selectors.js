@@ -75,12 +75,12 @@ module.exports = {
 
         },
         menuBar: {
-            Catagories: {
+            catagories: {
                 itemTag: 'a[class=item-content]',
                 
                 requestAPerk: 'request a perk',
                 referAVendor: 'Refer a Vendor',
-                ContactSupport: 'contact support',
+                contactSupport: 'contact support',
                 privacyPolicy: 'privacy policy',
                 termsAndConditionsOfUse: 'terms and condtions of use',
                 logout: 'logout'
